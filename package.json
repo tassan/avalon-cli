@@ -18,8 +18,8 @@
   "type": "commonjs",
   "main": "index.js",
   "bin": {
-    "hello": "bin/hello.js",
-    "merlin": "bin/merlin.js"
+    "hello": "./bin/hello.js",
+    "merlin": "./bin/merlin.js"
   },
   "directories": {
     "test": "tests"
