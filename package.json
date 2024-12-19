@@ -4,7 +4,7 @@
   "description": "A simple CLI for Avalon CMS with a hello message and an ASCII sword.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "bin": {
     "hello": "bin/hello.js",
@@ -12,7 +12,6 @@
   },
   "author": "Flávio Tassan",
   "license": "MIT",
-  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tassan/avalon-cli.git"
@@ -20,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/tassan/avalon-cli/issues"
   },
-  "homepage": "https://github.com/tassan/avalon-cli"
+  "homepage": "https://github.com/tassan/avalon-cli",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
